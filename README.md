@@ -8,6 +8,7 @@
 - capture the semantic and syntactic menaing by the singular vectors $u_i/v_i$ in $U/V$
 - project some word embedding vectors into some interesting direction
   - e.g. $V = V_{woman} - V_{man}$
+- matigate the gender bias of original word embeddings 
 - find the most similar word by measuring the cosine-similarity of two words by
 
 $$
@@ -18,7 +19,7 @@ $$
   - e.g. “man is to woman as king is to ? ”
   - ans: queen
 - report the accuracy
-- improve the accurancy(in progress)
+- improve the accurancy
  
   
   
